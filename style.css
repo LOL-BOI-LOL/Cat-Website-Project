@@ -1,0 +1,226 @@
+:root {
+  --text-color: #D8DCF6;
+  --box-color: #131520;
+}
+* {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+audio {
+  display: none;
+}
+#divTop {
+  background-color: var(--box-color);
+  color: rgb(216,220,246);
+  position: fixed;
+  width: 100%;
+}
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+a:hover { color: white; }
+#divPages:hover #divLinks > a { display: block; }
+.divFlex > div > img {
+  max-height: 40vh;
+  max-width: 95%;
+  width: auto;
+  height: auto;
+  border-radius: 5%;
+  border: 1vw solid rgb(44, 44, 44);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media screen and (max-width: 599px) {
+  #txtSource {
+    width: 100%;
+    font-family: copperplate, fantasy;
+    font-size: 2.5vw;
+    color: lightslategray;
+    text-align: center;
+    padding: 2vw 0px;
+    background-color: #131520;
+    position: fixed;
+    bottom: 0px;
+  }
+  .divFlex > div > p {
+    font-size: 3vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    line-height: 3.3vw;
+  }
+  .divFlex > div > h1 {
+    font-size: 3.5vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    margin-bottom: 1vw;
+  }
+  .elementTop {
+    display: inline-block;
+    font-size: 4vw;
+    margin: 0vw;
+  }
+  #txtTitle {
+    font-size: 7vw;
+    padding: 5% 0% 1% 8%;
+    width: 95%;
+    text-align: center;
+  }
+  #divLinks {
+    position: absolute;
+    width: 100%;
+    margin-left: -5%;
+  }
+  #imgCatLogo {
+    width: 10%;
+    border-radius: 10%;
+    margin: 3% 0% 0% 15%;
+    position: fixed;
+  }
+  #divLinks > a {
+    box-shadow: 0px 3vw 5vw 0px black;
+    padding: 3vw 5vw;
+    z-index: 1;
+    display: none;
+    background-color: var(--box-color);
+    width: 50%;
+    margin: 0% 25%;
+  }
+  #btnMenu { 
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 1% 0%;
+  }
+  #divPages {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  #txtDropDown { 
+    position: relative;
+    display: block;
+    padding: 1% 0%;
+  }
+  #divTitlePlaceHolder { height: 32vw; }
+  .divFlex {
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11vw;
+  }
+  .divFlex > div {
+    width: 70%;
+    margin: 0px 15%;
+  }
+  .txtCaption {
+    color: rgb(112, 112, 112) !important;
+    font-size: 3vw !important;
+    text-align: center;
+    font-family: copperplate, fantasy !important;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    word-break: break-word;
+  }
+  #divSourcePlaceHolder {
+    height: 8vw;
+  }
+}
+@media screen and (min-width: 600px) {
+  #divSourcePlaceHolder {
+    height: 6vw;
+  }
+  #txtSource {
+    width: 100%;
+    font-family: copperplate, fantasy;
+    font-size: 1.5vw;
+    color: lightslategray;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #131520;
+    position: fixed;
+    bottom: 0px;
+  }
+  .divFlex > div > p {
+    font-size: 1.5vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    line-height: 1.8vw;
+  }
+  .divFlex > div > h1 {
+    font-size: 2vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    margin-bottom: 5px;
+  }
+  .txtCaption {
+    color: rgb(112, 112, 112) !important;
+    font-size: 1.5vw !important;
+    text-align: center;
+    font-family: copperplate, fantasy !important;
+    margin-top: 10px;
+    word-break: break-word;
+  }
+  .divFlex {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .divFlex > div {
+    width: 46%;
+    margin: 0px 2%;
+  }
+  #divTitlePlaceHolder { height: 110px; }
+  .elementTop {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0vw;
+  }
+  #txtTitle {
+    font-size: 40px;
+    margin: 30px 70px 10px 100px;
+  }
+  #divLinks {
+    position: absolute;
+    margin-left: -13px;
+  }
+  #imgCatLogo {
+    width: 50px;
+    border-radius: 10%;
+    margin: 14px 0px 0px 25px;
+    position: fixed;
+  }
+  #divLinks > a {
+    min-width: 20px;
+    box-shadow: 0px 8px 16px 0px black;
+    padding: 12px 16px;
+    z-index: 1;
+    display: none;
+    background-color: var(--box-color);
+  }
+  #btnMenu { margin-right: 30px; }
+  #divPages { display: inline-block; }
+  #txtDropDown { position: relative; }
+}
+@media screen and (max-width: 250px) {
+  #divTitlePlaceHolder { height: 35vw; }
+}
+@media screen and (max-width: 599px) and (min-width: 440px) {
+  #txtSource {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 880px) {
+  #txtSource {
+    font-size: 13.2px;
+  }
+}
