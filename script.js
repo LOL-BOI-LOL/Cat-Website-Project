@@ -36,4 +36,4 @@ function audioCheck() {
   }
 }
 setPlaceHolderHeights();
-setTimeout(audioCheck, 50);
+setTimeout(audioCheck, 1000);
