@@ -104,7 +104,6 @@ a {
     display: block;
     padding: 1% 0%;
   }
-  #divTitlePlaceHolder { height: 32vw; }
   .divFlex {
     display: flex;
     height: 75%;
@@ -125,16 +124,10 @@ a {
     margin-bottom: 5%;
     word-break: break-word;
   }
-  #divSourcePlaceHolder {
-    height: 8vw;
-  }
 }
 @media screen and (min-width: 600px) {
   a:hover { color: white; }
   #divPages:hover #divLinks > a { display: block; }
-  #divSourcePlaceHolder {
-    height: 6vw;
-  }
   #txtSource {
     width: 100%;
     font-family: copperplate, fantasy;
@@ -179,7 +172,6 @@ a {
     width: 46%;
     margin: 0px 2%;
   }
-  #divTitlePlaceHolder { height: 110px; }
   .elementTop {
     display: inline-block;
     font-size: 20px;
@@ -210,9 +202,6 @@ a {
   #btnHome { margin-right: 30px; }
   #divPages { display: inline-block; }
   #txtDropDown { position: relative; }
-}
-@media screen and (max-width: 250px) {
-  #divTitlePlaceHolder { height: 35vw; }
 }
 @media screen and (max-width: 599px) and (min-width: 440px) {
   #txtSource {
