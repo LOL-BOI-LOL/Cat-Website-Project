@@ -19,8 +19,6 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
-a:hover { color: white; }
-#divPages:hover #divLinks > a { display: block; }
 .divFlex > div > img {
   max-height: 40vh;
   max-width: 95%;
@@ -132,6 +130,8 @@ a:hover { color: white; }
   }
 }
 @media screen and (min-width: 600px) {
+  a:hover { color: white; }
+  #divPages:hover #divLinks > a { display: block; }
   #divSourcePlaceHolder {
     height: 6vw;
   }
