@@ -30,7 +30,28 @@ a {
   margin-right: auto;
   display: block;
 }
+#divSources {
+  margin: 0% 12.5%;
+  text-align: center;
+}
 @media screen and (max-width: 599px) {
+  #divSourcePlaceHolder {
+    height: 11vw;
+  }
+  #divSources > p {
+    font-size: 3vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    line-height: 3.3vw;
+  }
+  #divSources > h1 {
+    font-size: 3.5vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    margin-bottom: 1vw;
+  }
   #txtSource {
     width: 100%;
     font-family: copperplate, fantasy;
@@ -126,6 +147,23 @@ a {
   }
 }
 @media screen and (min-width: 600px) {
+  #divSourcePlaceHolder {
+    height: 60px;
+  }
+  #divSources > p {
+    font-size: 1.5vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    line-height: 3.3vw;
+  }
+  #divSources > h1 {
+    font-size: 2vw;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-family: copperplate, fantasy;
+    margin-bottom: 1vw;
+  }
   a:hover { color: white; }
   #divPages:hover #divLinks > a { display: block; }
   #txtSource {
