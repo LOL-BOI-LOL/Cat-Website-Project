@@ -1,6 +1,6 @@
 const mediaQuery = window.matchMedia('(max-width: 599px)');
-document.getElementById('txtDropDown').addEventListener("click", toggleMenu);
-function toggleMenu() {
+document.getElementById('txtDropDown').addEventListener("click", toggleDropDown);
+function toggleDropDown() {
   if(mediaQuery.matches) {
     links = document.getElementById('divLinks').childNodes;
     state = window.getComputedStyle(links[1]).display;

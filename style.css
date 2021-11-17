@@ -87,7 +87,7 @@ a {
     width: 50%;
     margin: 0% 25%;
   }
-  #btnMenu { 
+  #btnHome { 
     display: block;
     text-align: center;
     width: 100%;
@@ -207,7 +207,7 @@ a {
     display: none;
     background-color: var(--box-color);
   }
-  #btnMenu { margin-right: 30px; }
+  #btnHome { margin-right: 30px; }
   #divPages { display: inline-block; }
   #txtDropDown { position: relative; }
 }
