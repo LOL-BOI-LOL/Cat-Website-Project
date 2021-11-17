@@ -6,6 +6,39 @@
   margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#divBlur {
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+}
+#divPopUp {
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: none;
+  position: fixed;
+  width: 48vw;
+  height: 48vh;
+  margin: 25vh 25vw;
+  background-color: rgb(19, 19, 19);
+  border: 1vw solid black;
+  border-radius: 1vw;
+  text-align: center;
+  z-index: 3;
+}
+#divPopUp > p {
+  display: inherit;
+  margin: 15vh 5vw;
+  color: rgb(175, 175, 175);
+  font-size: 3vw;
+}
 audio {
   display: none;
 }
