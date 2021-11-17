@@ -9,9 +9,16 @@
   <body>
     <div id='divBlur'></div>
     <div id='divPopUp'>
-      <p>Please Click This Box To Continue</p>
+      <img src='' id='imgEnlarged' />
     </div>
     <div id="divTop">
+      <div id='divMusic'>
+        <input type='checkbox' />
+        <img src='images/music.png' />
+        <audio loop id='Audio'>
+          <source src='fluffing-a-duck.mp3' type='audio/mp3'>
+        </audio>
+      </div>
       <img src="images/cat.jpg" id="imgCatLogo" />
       <p id="txtTitle" class="elementTop">Cat Information</p>
       <a href="index.html" id="btnHome" class="elementTop">Home</a>
@@ -31,9 +38,6 @@
       <p>All Information Sourced From Wikipedia And All Pictures Sourced From Wikimedia<br/>Music: "Fluffing a Duck" By Kevin MacLeod<br/>https://incompetech.filmmusic.io/song/3766-fluffing-a-duck<br/>https://incompetech.filmmusic.io/standard-license</p>
     </div>
     <div id='divSourcePlaceHolder'></div>
-    <audio loop autoplay id='Audio'>
-      <source src='fluffing-a-duck.mp3' type='audio/mp3'>
-    </audio>
     <script src='script.js'></script>
   </body>
 </html>

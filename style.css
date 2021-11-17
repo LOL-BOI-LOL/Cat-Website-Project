@@ -6,6 +6,8 @@
   margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a:hover, a:active { color: white; }
+#divPages:hover #divLinks > a { display: block; }
 #divBlur {
   display: none;
   position: fixed;
@@ -13,31 +15,17 @@
   top: 0px;
   width: 100vw;
   height: 100vh;
-  filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(7, 7, 7);
   z-index: 2;
 }
-#divPopUp {
-  right: 0px;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  display: none;
-  position: fixed;
-  width: 48vw;
-  height: 48vh;
-  margin: 25vh 25vw;
-  background-color: rgb(19, 19, 19);
-  border: 1vw solid black;
-  border-radius: 1vw;
-  text-align: center;
+#divPopUp > img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
   z-index: 3;
-}
-#divPopUp > p {
-  display: inherit;
-  margin: 15vh 5vw;
-  color: rgb(175, 175, 175);
-  font-size: 3vw;
+  border: 1px solid white;
 }
 audio {
   display: none;
@@ -67,7 +55,20 @@ a {
   margin: 0% 12.5%;
   text-align: center;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
+  #divMusic > img {
+    width: 6.5vw;
+    position: absolute;
+    top: 4vw;
+    right: 8.5vw;
+  }
+  #divMusic > input {
+    position: absolute;
+    top: 11.5vw;
+    right: 10vw;
+    width: 3vw;
+    height: 3vw;
+  }
   #divSourcePlaceHolder {
     height: 11vw;
   }
@@ -179,7 +180,20 @@ a {
     word-break: break-word;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
+  #divMusic > img {
+    width: 47.77px;
+    position: absolute;
+    top: 11.94px;
+    right: 35.82px;
+  }
+  #divMusic > input {
+    position: absolute;
+    top: 65.67px;
+    right: 47.76px;
+    width: 17.91px;
+    height: 17.91px;
+  }
   #divSourcePlaceHolder {
     height: 60px;
   }
@@ -197,8 +211,6 @@ a {
     font-family: copperplate, fantasy;
     margin-bottom: 1vw;
   }
-  a:hover { color: white; }
-  #divPages:hover #divLinks > a { display: block; }
   #txtSource {
     width: 100%;
     font-family: copperplate, fantasy;
