@@ -26,6 +26,7 @@ a:hover, a:active { color: white; }
   height: auto;
   z-index: 3;
   border: 1px solid white;
+  background-color: white;
 }
 audio {
   display: none;
@@ -76,19 +77,19 @@ a {
     font-size: 3vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     line-height: 3.3vw;
   }
   #divSources > h1 {
     font-size: 3.5vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     margin-bottom: 1vw;
   }
   #txtSource {
     width: 100%;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     font-size: 2.5vw;
     color: lightslategray;
     text-align: center;
@@ -101,14 +102,14 @@ a {
     font-size: 3vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     line-height: 3.3vw;
   }
   .divFlex > div > h1 {
     font-size: 3.5vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     margin-bottom: 1vw;
   }
   .elementTop {
@@ -174,7 +175,7 @@ a {
     color: rgb(112, 112, 112) !important;
     font-size: 3vw !important;
     text-align: center;
-    font-family: copperplate, fantasy !important;
+    font-family: georgia, serif !important;
     margin-top: 1%;
     margin-bottom: 5%;
     word-break: break-word;
@@ -201,19 +202,19 @@ a {
     font-size: 1.5vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     line-height: 3.3vw;
   }
   #divSources > h1 {
     font-size: 2vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     margin-bottom: 1vw;
   }
   #txtSource {
     width: 100%;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     font-size: 1.5vw;
     color: lightslategray;
     text-align: center;
@@ -226,21 +227,21 @@ a {
     font-size: 1.5vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     line-height: 1.8vw;
   }
   .divFlex > div > h1 {
     font-size: 2vw;
     color: rgb(29, 29, 29);
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: georgia, serif;
     margin-bottom: 5px;
   }
   .txtCaption {
     color: rgb(112, 112, 112) !important;
     font-size: 1.5vw !important;
     text-align: center;
-    font-family: copperplate, fantasy !important;
+    font-family: georgia, serif !important;
     margin-top: 10px;
     word-break: break-word;
   }
