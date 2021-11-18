@@ -18,7 +18,11 @@ a:hover, a:active { color: white; }
   background-color: rgb(7, 7, 7);
   z-index: 2;
 }
+#divPopUp {
+  display: none;
+}
 #divPopUp > img {
+  display: inherit;
   position: absolute;
   max-width: 50%;
   max-height: 50%;
