@@ -62,15 +62,16 @@ a {
 }
 @media screen and (max-width: 699px) {
   #divMusic > img {
-    width: 6.5vw;
     position: absolute;
     top: 4vw;
-    right: 8.5vw;
+    right: 9vw;
+    width: 6.5vw;
+    filter: invert(100%);
   }
   #divMusic > input {
     position: absolute;
     top: 11.5vw;
-    right: 10vw;
+    right: 10.75vw;
     width: 3vw;
     height: 3vw;
   }
@@ -191,6 +192,7 @@ a {
     position: absolute;
     top: 11.94px;
     right: 35.82px;
+    filter: invert(100%);
   }
   #divMusic > input {
     position: absolute;
